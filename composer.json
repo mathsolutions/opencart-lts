@@ -1,0 +1,47 @@
+{
+  "name": "opencart/opencart",
+  "description": "OpenCart",
+  "type": "project",
+  "keywords": [
+    "opencart",
+    "ecommerce",
+    "framework",
+    "opensource"
+  ],
+  "homepage": "https://www.opencart.com/",
+  "license": "GPL-3.0-or-later",
+  "support": {
+    "email": "support@opencart.com",
+    "issues": "https://github.com/opencart/opencart/issues",
+    "forum": "https://forum.opencart.com/",
+    "wiki": "https://github.com/opencart/opencart/wiki",
+    "source": "https://github.com/opencart/opencart/releases",
+    "docs": "http://docs.opencart.com/"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "vendor-dir": "upload/system/storage/vendor/",
+    "platform": {
+      "php": "8.1"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "scssphp/scssphp": "^1.13",
+    "twig/twig": "^3.25"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tools\\PHPStan\\": ".tools/phpstan/"
+    }
+  },
+  "scripts": {
+    "check": [
+      "@cs-check",
+      "@static-analysis"
+    ],
+    "cs-fix": "php .tools/php-cs-fixer-v3.phar fix --config=.tools/php-cs-fixer.php",
+    "cs-check": "php .tools/php-cs-fixer-v3.phar fix --config=.tools/php-cs-fixer.php --dry-run --diff",
+    "static-analysis": "php .tools/phpstan.phar analyze -c .tools/phpstan.neon"
+  }
+}

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'opencart/opencart',
-        'pretty_version' => '4.1.1.x-dev',
-        'version' => '4.1.1.9999999-dev',
-        'reference' => '51e526873ef71d5774ff9fb11055f89093060ccd',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '4dd0cd48f39b845d8efb2df3f8872dca84784611',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../../../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'opencart/opencart' => array(
-            'pretty_version' => '4.1.1.x-dev',
-            'version' => '4.1.1.9999999-dev',
-            'reference' => '51e526873ef71d5774ff9fb11055f89093060ccd',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '4dd0cd48f39b845d8efb2df3f8872dca84784611',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../../../../',
             'aliases' => array(),
@@ -56,9 +56,9 @@
             'dev_requirement' => false,
         ),
         'twig/twig' => array(
-            'pretty_version' => 'v3.24.0',
-            'version' => '3.24.0.0',
-            'reference' => 'a6769aefb305efef849dc25c9fd1653358c148f0',
+            'pretty_version' => 'v3.25.0',
+            'version' => '3.25.0.0',
+            'reference' => '0dade995be754556af4dcbf8721d45cb3271f9b4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../twig/twig',
             'aliases' => array(),
