@@ -53,6 +53,9 @@
   {% if payment %}
     {{ payment }}
   {% else %}
-    <div class="text-end"><button type="button" class="btn btn-primary" disabled>{{ button_confirm }}</button></div>
+    <div class="text-center">
+      <a href="{{ editlink }}" class="btn btn-warning" tabindex="-1" role="button"><i class="fa-solid fa-pen-to-square me-1"></i> {{ text_change_order }}</a>
+      <button type="button" class="btn btn-primary px-5" disabled><i class="fa-solid fa-cart-arrow-down me-1"></i> {{ button_confirm }}</button>
+    </div>
   {% endif %}
 </div>

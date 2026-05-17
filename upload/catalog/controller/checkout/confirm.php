@@ -347,6 +347,9 @@ class Confirm extends \Opencart\System\Engine\Controller {
 			$data['payment'] = '';
 		}
 
+		// Ссылка на изменение корзины заказа
+		$data['editlink'] = $this->url->link('checkout/cart', 'language=' . $this->config->get('config_language'));
+
 		// Validate if payment method has been set.
 		return $this->load->view('checkout/confirm', $data);
 	}
