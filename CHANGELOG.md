@@ -1,7 +1,7 @@
 # Changelog 
 
 All notable changes to this project will be documented in this file.    
-Detailed changes can see in the [repository log](https://github.com/oc-plus-plus/oc-plus-plus/commits/opencart/).
+Detailed changes can see in the [repository log](https://github.com/batumibiz/opencart-lts/commits/opencart/).
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0).
 
@@ -44,7 +44,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0).
 - Bootstrap CSS and JS libraries updated to version `5.3.8`
 - jQuery updated to version `4.0.0`
 - `scssphp/scssphp` package updated to version `2.1`
-- `twig/twig` package updated to version `3.24`
+- `twig/twig` package updated to version `3.27`
 - Monolithic `stylesheet.css` has been converted to a modular SCSS structure
 - `Opencart\System\Library::addScript()` - The list of scripts can be passed as an array
 - Reworked Autocomplete for the Admin panel:

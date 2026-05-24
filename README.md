@@ -1,9 +1,8 @@
-# OC++
+# OpenCart 4 LTS
 
-[![GitHub License](https://img.shields.io/github/license/oc-plus-plus/oc-plus-plus?color=green)](https://github.com/oc-plus-plus/oc-plus-plus/blob/main/LICENSE)
-[![coding standards](https://github.com/oc-plus-plus/oc-plus-plus/actions/workflows/coding-standards.yml/badge.svg)](https://github.com/oc-plus-plus/oc-plus-plus/actions/workflows/coding-standards.yml)
-[![static analysis](https://github.com/oc-plus-plus/oc-plus-plus/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/oc-plus-plus/oc-plus-plus/actions/workflows/static-analysis.yml)
-[![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/oc-plus-plus/oc-plus-plus)](https://github.com/oc-plus-plus/oc-plus-plus/issues)
+[![GitHub License](https://img.shields.io/github/license/batumibiz/opencart-lts?color=green)](https://github.com/batumibiz/opencart-lts/blob/main/LICENSE)
+[![coding standards](https://github.com/batumibiz/opencart-lts/actions/workflows/coding-standards.yml/badge.svg)](https://github.com/batumibiz/opencart-lts/actions/workflows/coding-standards.yml)
+[![static analysis](https://github.com/batumibiz/opencart-lts/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/batumibiz/opencart-lts/actions/workflows/static-analysis.yml)
 
 
 ## Contents
@@ -31,12 +30,6 @@ The [CHANGELOG] file contains a comprehensive list of all modifications, includi
 
 ### Why this repository exists
 To provide a stable, production-ready environment by backporting essential fixes while strictly avoiding the breaking changes found in the official development branches.
-
-### Why the "++" in the name?
-The OC++ designation signifies that this repository is a "plus-plus" edition of the original OpenCart 4.1.0.3 release:
-- The first + represents fixes for bugs and issues identified after the official 4.1.0.3 release.
-- The second + stands for additional enhancements and optimizations that strictly maintain full backward compatibility.
-
 This ensures a robust, production-ready core that remains a drop-in replacement for any 4.1.0.3-compatible environment.
 
 ## Compatibility Guarantee
@@ -53,7 +46,7 @@ Most importantly, the `error.log` on these production environments has remained 
 
 ### Production Example
 For a real-world example in action, you can visit small multilanguage website: https://isoap.ge
-- Core: **OC++** from this repository.
+- Core: **OpenCart 4 LTS** from this repository.
 - Framework: Running flawlessly on Journal v.3.2.9.
 - Stability: Zero errors in the logs.
 
@@ -90,7 +83,7 @@ For a real-world example in action, you can visit small multilanguage website: h
 >
 > ### ATTENTION! Please read carefully before proceeding with the upgrade!
 
-1. **Version Compatibility**: This upgrade package is designed **strictly for OpenCart 4.1.0.3** or **OC++**.
+1. **Version Compatibility**: This upgrade package is designed **strictly for OpenCart 4.1.0.3**.
 2. **Unsupported Versions**: upgrade package is incompatible with any other versions of OpenCart, including the official `master` branch or any other `4.x.x.x` releases.
 3. **Pre-requisite**: If you are running an older version of OpenCart, you must first upgrade to version 4.1.0.3 before applying this upgrade package.
 4. **Extension Compatibility**: this upgrade package has been tested with various extensions, including major frameworks like
@@ -124,7 +117,7 @@ For a real-world example in action, you can visit small multilanguage website: h
 
 
 ## Uninstallation: How to Revert to OpenCart 4.1.0.3
-**OC++ does not make any changes to the database structure**.  
+**OpenCart 4 LTS does not make any changes to the database structure**.  
 Because of this, reverting back to stock OpenCart 4.1.0.3 is entirely risk-free and straightforward:
 simply replace all the files in your website's root directory with the files from the official OpenCart 4.1.0.3
 distribution, and you are good to go.
@@ -287,5 +280,5 @@ Modifications without a specific link were developed within this repository.
 
 
 [OpenCart 4.1.0.3]: https://github.com/opencart/opencart/releases/tag/4.1.0.3
-[CHANGELOG]: https://github.com/oc-plus-plus/oc-plus-plus/blob/opencart/CHANGELOG.md
+[CHANGELOG]: https://github.com/batumibiz/opencart-lts/blob/opencart/CHANGELOG.md
 [GNU General Public License v.3]: https://github.com/oc-plus-plus/oc-plus-plus/blob/opencart/LICENSE
