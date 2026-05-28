@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0).
 
 ### Added
 - [#14857](https://github.com/opencart/opencart/pull/14857) - Add manufacturer filter
+- [#15479](https://github.com/opencart/opencart/pull/15479) - Support multi-word product name search
 - Remember the last directory in the file manager.
 - Emulation of `GLOB_BRACE` for Alpine/musl environments:  
   introduced a custom `oc_glob()` helper function to emulate native glob functionality.
@@ -119,6 +120,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0).
 - [#15428](https://github.com/opencart/opencart/pull/15428) - Multiple issues in checkout's register component
 - [#15436](https://github.com/opencart/opencart/pull/15436) - Keep order's status on admin update
 - [#15447](https://github.com/opencart/opencart/pull/15447) - Fix install open_basedir validation
+- [#15463](https://github.com/opencart/opencart/pull/15463) - Fix related products showing for wrong store
+- [#15467](https://github.com/opencart/opencart/pull/15467) - Fix promotions request
+- [#15473](https://github.com/opencart/opencart/pull/15473) - Fix escaping in backup
 - When unloading extensions, archives with errors were not deleted, but remained in the `/marketplace` folder.
 - The zone name was not displayed in the list
 - The password recovery link in the email was visible as plain text
