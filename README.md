@@ -280,5 +280,5 @@ Modifications without a specific link were developed within this repository.
 
 
 [OpenCart 4.1.0.3]: https://github.com/opencart/opencart/releases/tag/4.1.0.3
-[CHANGELOG]: https://github.com/batumibiz/opencart-lts/blob/opencart/CHANGELOG.md
+[CHANGELOG]: https://github.com/batumibiz/opencart-lts/blob/main/CHANGELOG.md
 [GNU General Public License v.3]: https://github.com/oc-plus-plus/oc-plus-plus/blob/opencart/LICENSE
