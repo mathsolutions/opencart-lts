@@ -18,8 +18,10 @@ class Footer extends \Opencart\System\Engine\Controller {
 
 		if ($this->user->isLogged() && isset($this->request->get['user_token']) && ($this->request->get['user_token'] == $this->session->data['user_token'])) {
 			$data['text_version'] = sprintf($this->language->get('text_version'), VERSION);
+			$data['text_lts_version'] = sprintf($this->language->get('text_lts_version'), LTS_VERSION);
 		} else {
 			$data['text_version'] = '';
+			$data['text_lts_version'] = '';
 		}
 
 		$data['bootstrap'] = 'view/javascript/bootstrap/bootstrap.bundle.min.js';
