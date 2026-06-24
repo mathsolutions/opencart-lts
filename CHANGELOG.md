@@ -22,6 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0).
 - Modern `Chart.js` library for Dashboard sales and analytics visualization.
 - Lightweight library `Jsvectormap` for Dashboard map visualization.
 - Button to change an order on the checkout page
+- Highlighting active filter buttons
 
 ### Changed
 - [#14753](https://github.com/opencart/opencart/pull/14753) - Retrieve more in depth files from extension directory for permission.
