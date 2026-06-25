@@ -1,13 +1,13 @@
 # Changelog 
 
 All notable changes to this project will be documented in this file.    
-Detailed changes can see in the [repository log](https://github.com/batumibiz/opencart-lts/commits/opencart/).
+Detailed changes can see in the [repository log](https://github.com/batumibiz/opencart-lts/commits/main/).
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0).
 
 ## Note regarding sources
 - Entries accompanied by a reference link indicate code borrowed or adapted from external sources.  
-- Entries without a reference link were developed exclusively within [this repository](https://github.com/oc-plus-plus/oc-plus-plus).
+- Entries without a reference link were developed exclusively within this repositor.
 
 ## Unreleased
 
