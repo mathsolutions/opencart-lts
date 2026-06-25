@@ -39,7 +39,7 @@ They are fully compatible with major frameworks and heavy-duty extensions,
 including **[Journal 3.2.9](https://themeforest.net/item/journal-advanced-opencart-theme/4260361)**
 and **[MazaEngine 1.13.10](https://themeforest.net/item/poco-advanced-opencart-theme/29855890)** (Poco Theme).  
 
-**If your extension worked on clean OpenCart 4.1.0.3, it should work on OC++.** However, since several libraries (including jQuery) have been updated, some legacy extensions might require updates or replacements.
+**If your extension worked on clean OpenCart 4.1.0.3, it should work on OpenCart 4 LTS.** However, since several libraries (including jQuery) have been updated, some legacy extensions might require updates or replacements.
 
 Most importantly, the `error.log` on these production environments has remained clean for a long period, confirming the stability and reliability of this build.
 
@@ -55,7 +55,7 @@ For a real-world example in action, you can visit small multilanguage website: h
 - **Web Server**: Apache 2.x.x.  
   While operation on Nginx + PHP-FPM is theoretically possible, it has not been tested yet.
 - **Database Server**: Current versions of MariaDB or MySQL.  
-   OC++ has not been tested with other database systems, and compatibility is not guaranteed.
+  OpenCart 4 LTS has not been tested with other database systems, and compatibility is not guaranteed.
 - **PHP**: 8.1 – 8.5 _(PHP 8.4 is recommended)_.
 - **PHP Settings**:
   - `max_execution_time` = 150 
