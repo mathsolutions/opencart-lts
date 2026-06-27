@@ -32,8 +32,8 @@
       "@cs-check",
       "@static-analysis"
     ],
-    "cs-fix": "php .tools/php-cs-fixer-v3.phar fix --config=.tools/php-cs-fixer.php",
-    "cs-check": "php .tools/php-cs-fixer-v3.phar fix --config=.tools/php-cs-fixer.php --dry-run --diff",
+    "cs-fix": "php .tools/php-cs-fixer.phar fix --config=.tools/php-cs-fixer.php",
+    "cs-check": "php .tools/php-cs-fixer.phar fix --config=.tools/php-cs-fixer.php --dry-run --diff",
     "static-analysis": "php .tools/phpstan.phar analyze -c .tools/phpstan.neon"
   }
 }
