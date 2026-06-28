@@ -259,6 +259,10 @@ You can run the full suite or individual checks using the following commands:
     ```bash
     composer cs-check
     ```
+- **Coding Standards Check with DIFF display**:
+    ```bash
+    composer cs-check-diff
+    ```
 - **Coding Standards Fix** (Automatically fixes formatting issues):
     ```bash
     composer cs-fix
