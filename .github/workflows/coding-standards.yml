@@ -3,8 +3,10 @@ on: [ push, pull_request ]
 
 jobs:
   coding-standard:
-    name: Coding Standard
     runs-on: ubuntu-latest
+
+    name: Coding Standard
+
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -12,7 +14,15 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: '8.1'
+
+      - name: Cache tools
+        uses: actions/cache@v5
+        with:
+          path: .tools/.cache
+          key: ${{ runner.os }}-tools-cache-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-tools-cache-
 
       - name: PHP PHP-CS-Fixer
         run: composer cs-check
