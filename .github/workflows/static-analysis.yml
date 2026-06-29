@@ -25,9 +25,7 @@ jobs:
       - name: Tools Cache
         uses: actions/cache@v5
         with:
-          path: |
-            ./.cache
-            ./.php-cs-fixer.cache
+          path: .tools/.cache
           key: ${{ matrix.php }}-tools-${{ github.sha }}
           restore-keys: ${{ matrix.php }}-tools-
 
