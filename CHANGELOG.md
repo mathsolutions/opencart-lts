@@ -124,6 +124,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0).
 - [#15463](https://github.com/opencart/opencart/pull/15463) - Fix related products showing for wrong store
 - [#15467](https://github.com/opencart/opencart/pull/15467) - Fix promotions request
 - [#15473](https://github.com/opencart/opencart/pull/15473) - Fix escaping in backup
+- [#15476](https://github.com/opencart/opencart/pull/15476) - Fix admin edit order not saving language and currency
 - When unloading extensions, archives with errors were not deleted, but remained in the `/marketplace` folder.
 - The zone name was not displayed in the list
 - The password recovery link in the email was visible as plain text
