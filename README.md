@@ -1,7 +1,8 @@
 # OpenCart 4 LTS
 
 [![GitHub License](https://img.shields.io/github/license/batumibiz/opencart-lts?color=green)](https://github.com/batumibiz/opencart-lts/blob/main/LICENSE)
-[![coding standards](https://github.com/batumibiz/opencart-lts/actions/workflows/coding-standards.yml/badge.svg)](https://github.com/batumibiz/opencart-lts/actions/workflows/coding-standards.yml)
+[![php coding standards](https://github.com/batumibiz/opencart-lts/actions/workflows/php-coding-standards.yml/badge.svg)](https://github.com/batumibiz/opencart-lts/actions/workflows/php-coding-standards.yml)
+[![twig coding standards](https://github.com/batumibiz/opencart-lts/actions/workflows/twig-coding-standards.yml/badge.svg)](https://github.com/batumibiz/opencart-lts/actions/workflows/twig-coding-standards.yml)
 [![static analysis](https://github.com/batumibiz/opencart-lts/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/batumibiz/opencart-lts/actions/workflows/static-analysis.yml)
 
 
