@@ -11,7 +11,7 @@ parameters:
         - ./phpstan/
         - ../upload/system/storage/vendor/
         - ../upload/system/storage/cache/
-    tmpDir: .cache
+    tmpDir: ../.cache/phpstan/
     ignoreErrors:
         - '#^Constant [A-Z_]+ not found\.$#'
         - '#^Variable \$\S+ might not be defined\.$#'

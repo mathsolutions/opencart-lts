@@ -1,0 +1,28 @@
+name: php coding standards
+on: [ push, pull_request ]
+
+jobs:
+  coding-standard:
+    runs-on: ubuntu-latest
+
+    name: Coding Standard
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+
+      - name: Cache tools
+        uses: actions/cache@v5
+        with:
+          path: .cache/php-cs-fixer.cache
+          key: ${{ runner.os }}-php-cs-fixer-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-php-cs-fixer-
+
+      - name: PHP PHP-CS-Fixer
+        run: composer cs-check

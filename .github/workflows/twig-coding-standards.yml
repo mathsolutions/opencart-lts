@@ -1,4 +1,4 @@
-name: coding standards
+name: twig coding standards
 on: [ push, pull_request ]
 
 jobs:
@@ -14,15 +14,15 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.1'
+          php-version: '8.2'
 
       - name: Cache tools
         uses: actions/cache@v5
         with:
-          path: .tools/.cache
-          key: ${{ runner.os }}-tools-cache-${{ github.sha }}
+          path: .cache/twig-cs-fixer.cache
+          key: ${{ runner.os }}-twig-cs-fixer-${{ github.sha }}
           restore-keys: |
-            ${{ runner.os }}-tools-cache-
+            ${{ runner.os }}-twig-cs-fixer-
 
       - name: PHP PHP-CS-Fixer
-        run: composer cs-check
+        run: composer twig-cs-check

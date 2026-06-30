@@ -30,6 +30,7 @@
   "scripts": {
     "check": [
       "@cs-check",
+      "@twig-cs-check",
       "@static-analysis"
     ],
     "cs-fix": "php .tools/php-cs-fixer.phar fix --config=.tools/php-cs-fixer.php",
